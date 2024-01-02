@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2023 at 02:22 PM
+-- Generation Time: Sty 02, 2024 at 05:51 PM
 -- Wersja serwera: 10.4.28-MariaDB
 -- Wersja PHP: 8.2.4
 
@@ -4365,31 +4365,31 @@ CREATE TABLE `copy` (
 --
 
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
-(1, 'Wydawnictwo XYZ', '9781230000001', 2022, 'BOOK', 'Polski', '\"Pan Wołodyjowski\" to opowieść o nieustraszonym pułkowniku Michału Wołodyjowskim, który stawia czoła zagrożeniom tureckiego najazdu w Rzeczypospolitej szlacheckiej. W tej epickiej historii miłość, honor i odwaga przeplatają się w trudnym tańcu bohatera z politycznymi intrygami i militarnymi konfliktami.', 'AVAILABLE', 1, 1),
-(2, 'Inne Wydawnictwo', '9781230000002', 2021, 'BOOK', 'Angielski', '\"1984\" by George Orwell is a dystopian masterpiece that explores a nightmarish future where a totalitarian regime, led by the enigmatic Big Brother, controls every aspect of its citizens\' lives. Through the eyes of protagonist Winston Smith, the novel delves into the chilling consequences of thought control, surveillance, and the manipulation of truth in a society stripped of individuality and freedom.', 'AVAILABLE', 1, 2),
+(1, 'Wydawnictwo XYZ', '9781230000001', 2022, 'BOOK', 'Polski', '\"Pan Wołodyjowski\" to opowieść o nieustraszonym pułkowniku Michału Wołodyjowskim, który stawia czoła zagrożeniom tureckiego najazdu w Rzeczypospolitej szlacheckiej. W tej epickiej historii miłość, honor i odwaga przeplatają się w trudnym tańcu bohatera z politycznymi intrygami i militarnymi konfliktami.', 'UNAVAILABLE', 1, 1),
+(2, 'Inne Wydawnictwo', '9781230000002', 2021, 'BOOK', 'Angielski', '\"1984\" by George Orwell is a dystopian masterpiece that explores a nightmarish future where a totalitarian regime, led by the enigmatic Big Brother, controls every aspect of its citizens\' lives. Through the eyes of protagonist Winston Smith, the novel delves into the chilling consequences of thought control, surveillance, and the manipulation of truth in a society stripped of individuality and freedom.', 'UNAVAILABLE', 1, 2),
 (3, 'Wydawnictwo ABC', '9781230000003', 2020, 'BOOK', 'Polski', '\"Erystyka\" Arthura Schopenhauera to niezwykłe dzieło, w którym autor odkrywa sztukę argumentacji i sztuczki używane w dyskusjach. Z głębokim zrozumieniem ludzkiej psychologii Schopenhauer ukazuje, jak manipulować retoryką i jakie pułapki czyhają na niewprawionego dyskutanta. To praktyczne kompendium dla tych, którzy chcą zrozumieć tajniki perswazji i obronić się przed erystycznymi chwytami w dialogu.', 'UNAVAILABLE', 2, 3),
 (4, 'Nowoczesne Wydawnictwo', '9781230000004', 2019, 'BOOK', 'Angielski', 'A timeless American classic that delves into the glittering, yet ultimately hollow, world of the Roaring Twenties. Through the eyes of the enigmatic Jay Gatsby and the narrator Nick Carraway, the novel unravels themes of wealth, love, and the elusive American Dream, painting a poignant portrait of a society intoxicated by excess and haunted by unattainable aspirations.', 'AVAILABLE', 2, 4),
-(5, 'Książki Świata', '9781230000005', 2022, 'EBOOK', 'Polski', '\"Rozprawa o metodzie\" to kluczowe dzieło René Descartesa, w którym filozof przedstawia swoje zasady myślowe i metodyczne podejście do poznania. Opowiadając się za racjonalnym sceptycyzmem, Descartes podkreśla znaczenie wątpienia i samodzielnego myślenia, rzucając jednocześnie wyzwanie utartym przekonaniom swojej epoki i stawiając fundamenty dla nowoczesnej filozofi', 'AVAILABLE', 3, 5),
+(5, 'Książki Świata', '9781230000005', 2022, 'EBOOK', 'Polski', '\"Rozprawa o metodzie\" to kluczowe dzieło René Descartesa, w którym filozof przedstawia swoje zasady myślowe i metodyczne podejście do poznania. Opowiadając się za racjonalnym sceptycyzmem, Descartes podkreśla znaczenie wątpienia i samodzielnego myślenia, rzucając jednocześnie wyzwanie utartym przekonaniom swojej epoki i stawiając fundamenty dla nowoczesnej filozofi', 'UNAVAILABLE', 3, 5),
 (6, 'Wydawnictwo XYZ', '9781230000006', 2021, 'BOOK', 'Angielski', 'A beloved fairy tale by Hans Christian Andersen, follows the journey of a cygnet ostracized for its perceived ugliness in a duckling family. Through resilience and transformation, the story celebrates the discovery of one\'s true identity, beauty, and acceptance, imparting a timeless lesson on the power of self-discovery and inner worth.', 'UNAVAILABLE', 3, 6),
-(7, 'Inne Wydawnictwo', '9781230000007', 2020, 'BOOK', 'Polski', '\"Władca Pierścieni\" to epicka opowieść J.R.R. Tolkiena o wyprawie młodego hobbita Froda Bagginsa, który wraz z niezwykłym towarzystwem wyrusza, by zniszczyć potężny Pierścień Władzy. To niezwykłe dzieło literatury fantasy urzeka czytelników nie tylko wspaniałym światem Śródziemia, lecz także głębokimi przemyśleniami na temat przyjaźni, odwagi i wiecznej walki dobra ze złem.', 'AVAILABLE', 4, 7),
+(7, 'Inne Wydawnictwo', '9781230000007', 2020, 'BOOK', 'Polski', '\"Władca Pierścieni\" to epicka opowieść J.R.R. Tolkiena o wyprawie młodego hobbita Froda Bagginsa, który wraz z niezwykłym towarzystwem wyrusza, by zniszczyć potężny Pierścień Władzy. To niezwykłe dzieło literatury fantasy urzeka czytelników nie tylko wspaniałym światem Śródziemia, lecz także głębokimi przemyśleniami na temat przyjaźni, odwagi i wiecznej walki dobra ze złem.', 'UNAVAILABLE', 4, 7),
 (8, 'Wydawnictwo ABC', '9781230000008', 2019, 'BOOK', 'Angielski', 'W \"Dumie i uprzedzeniu\" Jane Austen, śmiało zaklasyfikowanej jako arcydzieło literatury romantycznej, czytelnik wchodzi w świat burzliwych romansów i społecznych konwenansów XIX wieku. Opowiadanie o miłości i uprzedzeniach między Elizabeth Bennet a panem Darcy\'m stanowi niezapomnianą podróż przez zawiłości ludzkich uczuć i złożoność społeczeństwa tego czasu.', 'UNAVAILABLE', 4, 8),
-(9, 'Nowoczesne Wydawnictwo', '9781230000009', 2022, 'BOOK', 'Polski', '„Wiele hałasu o nic” to komedia Williama Shakespearea, której akcja toczy się w krainie Messyny. Historia opowiada o dwóch parach zakochanych, Benedykcie i Beatrycze oraz Klaudiuszu i Hero, które stają w obliczu intryg i zawirowań miłosnych. Pełna humoru i zgryźliwego spojrzenia na ludzkie relacje, sztuka ta rzuca spojrzenie na to, jak często błahe sytuacje mogą prowadzić do wielkiego zamieszania.', 'AVAILABLE', 5, 9),
-(10, 'Książki Świata', '9781230000010', 2021, 'BOOK', 'Angielski', '\"The Chronicles of Narnia\" by C.S. Lewis is a captivating series that transports readers to the magical land of Narnia, where talking animals, mythical creatures, and epic adventures unfold. Through the Pevensie siblings\' remarkable journey, the series weaves a rich tapestry of courage, friendship, and the eternal struggle between good and evil.', 'AVAILABLE', 5, 10),
-(11, 'Wydawnictwo XYZ', '9781230000011', 2020, 'BOOK', 'Rosyjski', '\"Преступление и наказание\" - великолепное произведение Федора Достоевского, рассказывающее о молодом студенте Родионе Раскольникове, который, убивая старую личварку Алёну Ивановну, сталкивается с моральными и психологическими последствиями своего поступка. Роман исследует глубину человеческой души, а его герой становится объектом изучения вопросов нравственности, вины и искупления.', 'AVAILABLE', 1, 11),
+(9, 'Nowoczesne Wydawnictwo', '9781230000009', 2022, 'BOOK', 'Polski', '„Wiele hałasu o nic” to komedia Williama Shakespearea, której akcja toczy się w krainie Messyny. Historia opowiada o dwóch parach zakochanych, Benedykcie i Beatrycze oraz Klaudiuszu i Hero, które stają w obliczu intryg i zawirowań miłosnych. Pełna humoru i zgryźliwego spojrzenia na ludzkie relacje, sztuka ta rzuca spojrzenie na to, jak często błahe sytuacje mogą prowadzić do wielkiego zamieszania.', 'UNAVAILABLE', 5, 9),
+(10, 'Książki Świata', '9781230000010', 2021, 'BOOK', 'Angielski', '\"The Chronicles of Narnia\" by C.S. Lewis is a captivating series that transports readers to the magical land of Narnia, where talking animals, mythical creatures, and epic adventures unfold. Through the Pevensie siblings\' remarkable journey, the series weaves a rich tapestry of courage, friendship, and the eternal struggle between good and evil.', 'UNAVAILABLE', 5, 10),
+(11, 'Wydawnictwo XYZ', '9781230000011', 2020, 'BOOK', 'Rosyjski', '\"Преступление и наказание\" - великолепное произведение Федора Достоевского, рассказывающее о молодом студенте Родионе Раскольникове, который, убивая старую личварку Алёну Ивановну, сталкивается с моральными и психологическими последствиями своего поступка. Роман исследует глубину человеческой души, а его герой становится объектом изучения вопросов нравственности, вины и искупления.', 'UNAVAILABLE', 1, 11),
 (12, 'Inne Wydawnictwo', '9781230000012', 2019, 'BOOK', 'Polski', '\"Moby Dick\" to powieść Hermana Melville\'a o kapitanie Ahabie, który walczy z obsesyjną zemstą na olbrzymim białym wielorybie, znanym jako Moby Dick. Opowieść, narracyjnie prowadzona przez marynarza Ishmaela, porusza tematy obsesji, natury ludzkiej, i relacji z nieuchwytną siłą przyrody.', 'UNAVAILABLE', 1, 12),
 (13, 'Wydawnictwo ABC', '9781230000013', 2022, 'BOOK', 'Polski', '\"Odyseja\" to starożytny epos przypisywany greckiemu poecie Homerowi. Opowiada o przygodach Odyseusza, króla Itaki, który po zakończeniu wojny trojańskiej walczy o powrót do domu. Podczas długiej podróży musi przeciwstawić się licznym przeszkodom, w tym mitycznym stworzeniom i bogom. \"Odyseja\" to nie tylko opowieść o heroicznej podróży, ale także rozważania na temat wierności, mądrości i siły ludzkiego ducha.', 'AVAILABLE', 2, 13),
-(14, 'Nowoczesne Wydawnictwo', '9781230000014', 2021, 'BOOK', 'Angielski', '\"Frankenstein\" by Mary Shelley is a gothic masterpiece that explores the consequences of scientific ambition and the pursuit of knowledge. Dr. Victor Frankenstein\'s creation of a living being from reanimated corpses leads to a tragic tale of isolation, societal rejection, and the profound questions about the ethical boundaries of scientific discovery and the responsibilities that come with playing god.', 'AVAILABLE', 2, 14),
+(14, 'Nowoczesne Wydawnictwo', '9781230000014', 2021, 'BOOK', 'Angielski', '\"Frankenstein\" by Mary Shelley is a gothic masterpiece that explores the consequences of scientific ambition and the pursuit of knowledge. Dr. Victor Frankenstein\'s creation of a living being from reanimated corpses leads to a tragic tale of isolation, societal rejection, and the profound questions about the ethical boundaries of scientific discovery and the responsibilities that come with playing god.', 'UNAVAILABLE', 2, 14),
 (15, 'Książki Świata', '9781230000015', 2020, 'BOOK', 'Polski', 'Zapraszamy do fascynującej podróży z Robinsonem Crusoe - młodym angielskim żeglarzem, który przetrwał na bezludnej wyspie. Jego walka z samotnością, zdobywanie umiejętności przetrwania i niezwykłe przygody sprawiają, że ta klasyczna opowieść Daniela Defoe wciąż porusza serca czytelników. Odkryj magię przygody, nauki życiowej i triumfu ludzkiego ducha w tej niezapomnianej powieści przygodowej!', 'UNAVAILABLE', 3, 15),
-(16, 'Wydawnictwo XYZ', '9786789012316', 2019, 'EBOOK', 'Polski', '\"Pan Wołodyjowski\" to opowieść o nieustraszonym pułkowniku Michału Wołodyjowskim, który stawia czoła zagrożeniom tureckiego najazdu w Rzeczypospolitej szlacheckiej. W tej epickiej historii miłość, honor i odwaga przeplatają się w trudnym tańcu bohatera z politycznymi intrygami i militarnymi konfliktami.', 'AVAILABLE', 3, 1),
+(16, 'Wydawnictwo XYZ', '9786789012316', 2019, 'EBOOK', 'Polski', '\"Pan Wołodyjowski\" to opowieść o nieustraszonym pułkowniku Michału Wołodyjowskim, który stawia czoła zagrożeniom tureckiego najazdu w Rzeczypospolitej szlacheckiej. W tej epickiej historii miłość, honor i odwaga przeplatają się w trudnym tańcu bohatera z politycznymi intrygami i militarnymi konfliktami.', 'UNAVAILABLE', 3, 1),
 (17, 'Inne Wydawnictwo', '9787890123417', 2022, 'BOOK', 'Polski', '\"1984\" George\'a Orwella przenosi czytelnika do ponurej rzeczywistości totalitarnej władzy, gdzie każda myśl jest kontrolowana, a prawda podlega manipulacji. W świecie bezwzględnej inwigilacji śledzimy losy buntowniczego Winstona Smitha, który staje do walki o indywidualizm w obliczu bezlitosnego reżimu.', 'AVAILABLE', 4, 2),
-(18, 'Wydawnictwo ABC', '9788901234518', 2021, 'BOOK', 'Francuski', 'Le Discours de la méthode (1637) est le manifeste de la philosophie cartésienne, visant à unifier les sciences et établir une science universelle. Cette œuvre défend la primauté de la raison contre toute tradition et autorité, avec pour objectif ultime d\'atteindre la certitude philosophique.', 'AVAILABLE', 4, 5),
+(18, 'Wydawnictwo ABC', '9788901234518', 2021, 'BOOK', 'Francuski', 'Le Discours de la méthode (1637) est le manifeste de la philosophie cartésienne, visant à unifier les sciences et établir une science universelle. Cette œuvre défend la primauté de la raison contre toute tradition et autorité, avec pour objectif ultime d\'atteindre la certitude philosophique.', 'UNAVAILABLE', 4, 5),
 (19, 'Nowoczesne Wydawnictwo', '9789012345619', 2020, 'EBOOK', 'Polski', 'Wyjątkowe piękno kryje się w odrzuconym – to przesłanie, które niesie ze sobą \'Brzydkie Kaczątko\' Hansa Christiana Andersena. Ta ujmująca baśń opowiada o kaczątku, które, mimo swojej odmienności, odnajduje swoją prawdziwą wartość, przypominając nam o sile akceptacji i pięknie ukrytym głęboko wewnątrz każdej istoty.', 'AVAILABLE', 5, 6),
 (20, 'Książki Świata', '9780123456720', 2019, 'BOOK', 'Polski', '\"Władca Pierścieni\" to epicka opowieść J.R.R. Tolkiena o wyprawie młodego hobbita Froda Bagginsa, który wraz z niezwykłym towarzystwem wyrusza, by zniszczyć potężny Pierścień Władzy. To niezwykłe dzieło literatury fantasy urzeka czytelników nie tylko wspaniałym światem Śródziemia, lecz także głębokimi przemyśleniami na temat przyjaźni, odwagi i wiecznej walki dobra ze złem.', 'UNAVAILABLE', 5, 7),
-(21, 'Wydawnictwo XYZ', '9781234567821', 2022, 'BOOK', 'Polski', '\"Opowieści z Narnii\" to seria siedmiu powieści C.S. Lewisa, zabierająca czytelników w magiczne podróże do krainy Narnii, gdzie dobro i zło toczą wieczną walkę. Seria dotyka tematów przyjaźni, odwagi i wiary, tworząc niezapomnianą opowieść dla czytelników wszystkich grup wiekowych.', 'AVAILABLE', 1, 10),
-(22, 'Inne Wydawnictwo', '9782345678922', 2021, 'BOOK', 'Polski', '\"Zbrodnia i kara\" to klasyczna powieść Fiodora Dostojewskiego, która skupia się na losach Rodiona Raskolnikowa, studenta w Petersburgu. Raskolnikow, przekonany o swojej wyjątkowości, popełnia brutalne morderstwo, co prowadzi go do wewnętrznej walki z moralnymi dylematami oraz doświadczenia kary psychicznej. Powieść analizuje tematy winy, kary, moralności i cierpienia, stawiając pytania dotyczące ludzkiej natury i etyki.', 'AVAILABLE', 1, 11),
-(23, 'Wydawnictwo ABC', '9783456789023', 2020, 'EBOOK', 'Polski', '\"Odyseja\" to starożytny epos przypisywany greckiemu poecie Homerowi. Opowiada o przygodach Odyseusza, króla Itaki, który po zakończeniu wojny trojańskiej walczy o powrót do domu. Podczas długiej podróży musi przeciwstawić się licznym przeszkodom, w tym mitycznym stworzeniom i bogom. \"Odyseja\" to nie tylko opowieść o heroicznej podróży, ale także rozważania na temat wierności, mądrości i siły ludzkiego ducha.', 'AVAILABLE', 2, 13),
+(21, 'Wydawnictwo XYZ', '9781234567821', 2022, 'BOOK', 'Polski', '\"Opowieści z Narnii\" to seria siedmiu powieści C.S. Lewisa, zabierająca czytelników w magiczne podróże do krainy Narnii, gdzie dobro i zło toczą wieczną walkę. Seria dotyka tematów przyjaźni, odwagi i wiary, tworząc niezapomnianą opowieść dla czytelników wszystkich grup wiekowych.', 'UNAVAILABLE', 1, 10),
+(22, 'Inne Wydawnictwo', '9782345678922', 2021, 'BOOK', 'Polski', '\"Zbrodnia i kara\" to klasyczna powieść Fiodora Dostojewskiego, która skupia się na losach Rodiona Raskolnikowa, studenta w Petersburgu. Raskolnikow, przekonany o swojej wyjątkowości, popełnia brutalne morderstwo, co prowadzi go do wewnętrznej walki z moralnymi dylematami oraz doświadczenia kary psychicznej. Powieść analizuje tematy winy, kary, moralności i cierpienia, stawiając pytania dotyczące ludzkiej natury i etyki.', 'UNAVAILABLE', 1, 11),
+(23, 'Wydawnictwo ABC', '9783456789023', 2020, 'EBOOK', 'Polski', '\"Odyseja\" to starożytny epos przypisywany greckiemu poecie Homerowi. Opowiada o przygodach Odyseusza, króla Itaki, który po zakończeniu wojny trojańskiej walczy o powrót do domu. Podczas długiej podróży musi przeciwstawić się licznym przeszkodom, w tym mitycznym stworzeniom i bogom. \"Odyseja\" to nie tylko opowieść o heroicznej podróży, ale także rozważania na temat wierności, mądrości i siły ludzkiego ducha.', 'UNAVAILABLE', 2, 13),
 (24, 'Nowoczesne Wydawnictwo', '9784567890124', 2019, 'EBOOK', 'Polski', '\"Frankenstein\" to klasyczna powieść Mary Shelley, która opowiada historię młodego naukowca, Victora Frankenstein, który tworzy istotę ożywioną z martwych ciał. Twór Victora staje się potworem, który wobec odrzucenia i samotności zaczyna pogrążać się w zbrodniach. Powieść porusza tematy nauki, etyki, samotności i ludzkiej natury, stając się jednym z najważniejszych dzieł literatury gotyckiej i science fiction.', 'AVAILABLE', 2, 14),
-(25, 'Książki Świata', '9785678901225', 2022, 'BOOK', 'Polski', '\"1984\" George\'a Orwella przenosi czytelnika do ponurej rzeczywistości totalitarnej władzy, gdzie każda myśl jest kontrolowana, a prawda podlega manipulacji. W świecie bezwzględnej inwigilacji śledzimy losy buntowniczego Winstona Smitha, który staje do walki o indywidualizm w obliczu bezlitosnego reżimu.', 'AVAILABLE', 3, 2),
+(25, 'Książki Świata', '9785678901225', 2022, 'BOOK', 'Polski', '\"1984\" George\'a Orwella przenosi czytelnika do ponurej rzeczywistości totalitarnej władzy, gdzie każda myśl jest kontrolowana, a prawda podlega manipulacji. W świecie bezwzględnej inwigilacji śledzimy losy buntowniczego Winstona Smitha, który staje do walki o indywidualizm w obliczu bezlitosnego reżimu.', 'UNAVAILABLE', 3, 2),
 (26, 'Wydawnictwo XYZ', '9786789012026', 2021, 'BOOK', 'Polski', 'Wyjątkowe piękno kryje się w odrzuconym – to przesłanie, które niesie ze sobą \'Brzydkie Kaczątko\' Hansa Christiana Andersena. Ta ujmująca baśń opowiada o kaczątku, które, mimo swojej odmienności, odnajduje swoją prawdziwą wartość, przypominając nam o sile akceptacji i pięknie ukrytym głęboko wewnątrz każdej istoty.', 'AVAILABLE', 3, 6),
 (27, 'Inne Wydawnictwo', '9787890123927', 2020, 'BOOK', 'Polski', '\"Władca Pierścieni\" to epicka opowieść J.R.R. Tolkiena o wyprawie młodego hobbita Froda Bagginsa, który wraz z niezwykłym towarzystwem wyrusza, by zniszczyć potężny Pierścień Władzy. To niezwykłe dzieło literatury fantasy urzeka czytelników nie tylko wspaniałym światem Śródziemia, lecz także głębokimi przemyśleniami na temat przyjaźni, odwagi i wiecznej walki dobra ze złem.', 'UNAVAILABLE', 4, 7),
 (28, 'Wydawnictwo ABC', '9788901234528', 2019, 'BOOK', 'Polski', '\"Odyseja\" to starożytny epos przypisywany greckiemu poecie Homerowi. Opowiada o przygodach Odyseusza, króla Itaki, który po zakończeniu wojny trojańskiej walczy o powrót do domu. Podczas długiej podróży musi przeciwstawić się licznym przeszkodom, w tym mitycznym stworzeniom i bogom. \"Odyseja\" to nie tylko opowieść o heroicznej podróży, ale także rozważania na temat wierności, mądrości i siły ludzkiego ducha.', 'AVAILABLE', 4, 13),
@@ -4475,7 +4475,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (108, 'Wydawnictwo Polskie', '9781230000108', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3508', 'AVAILABLE', 5, 7),
 (109, 'Wydawnictwo ABC', '9781230000109', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3509', 'AVAILABLE', 5, 7),
 (110, 'Nowoczesne Wydawnictwo', '9781230000110', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 110', 'AVAILABLE', 1, 32),
-(111, 'Nowoczesne Wydawnictwo', '9781230000111', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 111', 'AVAILABLE', 1, 32),
+(111, 'Nowoczesne Wydawnictwo', '9781230000111', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 111', 'UNAVAILABLE', 1, 32),
 (112, 'Nowoczesne Wydawnictwo', '9781230000112', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 112', 'AVAILABLE', 1, 32),
 (113, 'Nowoczesne Wydawnictwo', '9781230000113', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 113', 'AVAILABLE', 1, 32),
 (114, 'Książki Świata', '9781230000114', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 114', 'AVAILABLE', 1, 33),
@@ -4508,7 +4508,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (141, 'Wydawnictwo Polskie', '9781230000141', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 141', 'AVAILABLE', 1, 39),
 (142, 'Inne Wydawnictwo', '9781230000142', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 142', 'AVAILABLE', 1, 40),
 (143, 'Inne Wydawnictwo', '9781230000143', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 143', 'AVAILABLE', 1, 40),
-(144, 'Inne Wydawnictwo', '9781230000144', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 144', 'AVAILABLE', 1, 40),
+(144, 'Inne Wydawnictwo', '9781230000144', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 144', 'UNAVAILABLE', 1, 40),
 (145, 'Inne Wydawnictwo', '9781230000145', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 145', 'AVAILABLE', 1, 40),
 (146, 'Nowoczesne Wydawnictwo', '9781230000146', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 146', 'AVAILABLE', 1, 41),
 (147, 'Nowoczesne Wydawnictwo', '9781230000147', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 147', 'AVAILABLE', 1, 41),
@@ -4575,7 +4575,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (208, 'Inne Wydawnictwo', '9781230000208', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 208', 'AVAILABLE', 1, 56),
 (209, 'Inne Wydawnictwo', '9781230000209', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 209', 'AVAILABLE', 1, 56),
 (210, 'Nowoczesne Wydawnictwo', '9781230000210', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 210', 'AVAILABLE', 1, 57),
-(211, 'Nowoczesne Wydawnictwo', '9781230000211', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 211', 'AVAILABLE', 1, 57),
+(211, 'Nowoczesne Wydawnictwo', '9781230000211', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 211', 'UNAVAILABLE', 1, 57),
 (212, 'Nowoczesne Wydawnictwo', '9781230000212', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 212', 'AVAILABLE', 1, 57),
 (213, 'Nowoczesne Wydawnictwo', '9781230000213', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 213', 'AVAILABLE', 1, 57),
 (214, 'Książki Świata', '9781230000214', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 214', 'AVAILABLE', 1, 58),
@@ -4726,9 +4726,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (359, 'Książki Świata', '9781230000359', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 359', 'AVAILABLE', 1, 94),
 (360, 'Książki Świata', '9781230000360', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 360', 'AVAILABLE', 1, 94),
 (361, 'Książki Świata', '9781230000361', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 361', 'AVAILABLE', 1, 94),
-(362, 'Wydawnictwo Polskie', '9781230000362', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 362', 'AVAILABLE', 1, 95),
-(363, 'Wydawnictwo Polskie', '9781230000363', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 363', 'AVAILABLE', 1, 95);
+(362, 'Wydawnictwo Polskie', '9781230000362', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 362', 'AVAILABLE', 1, 95);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(363, 'Wydawnictwo Polskie', '9781230000363', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 363', 'AVAILABLE', 1, 95),
 (364, 'Wydawnictwo Polskie', '9781230000364', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 364', 'AVAILABLE', 1, 95),
 (365, 'Wydawnictwo Polskie', '9781230000365', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 365', 'AVAILABLE', 1, 95),
 (366, 'Inne Wydawnictwo', '9781230000366', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 366', 'AVAILABLE', 1, 96),
@@ -4968,7 +4968,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (600, 'Inne Wydawnictwo', '9781230000600', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 600', 'AVAILABLE', 1, 154),
 (601, 'Wydawnictwo XYZ', '9781230000601', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 601', 'AVAILABLE', 1, 154),
 (602, 'English Publisher', '9781230000602', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 602', 'AVAILABLE', 1, 155),
-(603, 'Wydawnictwo Polskie', '9781230000603', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 603', 'AVAILABLE', 1, 155),
+(603, 'Wydawnictwo Polskie', '9781230000603', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 603', 'UNAVAILABLE', 1, 155),
 (604, 'Inne Wydawnictwo', '9781230000604', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 604', 'AVAILABLE', 1, 155),
 (605, 'Wydawnictwo ABC', '9781230000605', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 605', 'AVAILABLE', 1, 155),
 (606, 'English Tea', '9781230000606', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 606', 'AVAILABLE', 1, 156),
@@ -5073,7 +5073,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (705, 'English Publisher', '9781230000705', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 705', 'AVAILABLE', 1, 181),
 (706, 'Wydawnictwo Polskie', '9781230000706', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 706', 'AVAILABLE', 1, 181),
 (707, 'Inne Wydawnictwo', '9781230000707', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 707', 'AVAILABLE', 1, 181),
-(708, 'Wydawnictwo ABC', '9781230000708', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 708', 'AVAILABLE', 1, 181),
+(708, 'Wydawnictwo ABC', '9781230000708', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 708', 'UNAVAILABLE', 1, 181),
 (709, 'English Publisher', '9781230000709', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 709', 'AVAILABLE', 1, 182),
 (710, 'Wydawnictwo Polskie', '9781230000710', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 710', 'AVAILABLE', 1, 182),
 (711, 'Inne Wydawnictwo', '9781230000711', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 711', 'AVAILABLE', 1, 182),
@@ -5171,9 +5171,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (803, 'English Publisher', '9781230000803', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 803', 'AVAILABLE', 1, 186),
 (804, 'Wydawnictwo Polskie', '9781230000804', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 804', 'AVAILABLE', 1, 186),
 (805, 'Inne Wydawnictwo', '9781230000805', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 805', 'AVAILABLE', 1, 186),
-(806, 'Wydawnictwo ABC', '9781230000806', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 806', 'AVAILABLE', 1, 186),
-(807, 'English Tea', '9781230000807', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 807', 'AVAILABLE', 1, 187);
+(806, 'Wydawnictwo ABC', '9781230000806', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 806', 'AVAILABLE', 1, 186);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(807, 'English Tea', '9781230000807', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 807', 'AVAILABLE', 1, 187),
 (808, 'Wydawnictwo Polskie', '9781230000808', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 808', 'AVAILABLE', 1, 187),
 (809, 'Inne Wydawnictwo', '9781230000809', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 809', 'AVAILABLE', 1, 187),
 (810, 'Wydawnictwo ABC', '9781230000810', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 810', 'AVAILABLE', 1, 187),
@@ -5250,7 +5250,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (881, 'Inne Wydawnictwo', '9781230000881', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 881', 'AVAILABLE', 1, 205),
 (882, 'Wydawnictwo ABC', '9781230000882', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 882', 'AVAILABLE', 1, 205),
 (883, 'English Publisher', '9781230000883', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 883', 'AVAILABLE', 1, 206),
-(884, 'Wydawnictwo Polskie', '9781230000884', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 884', 'AVAILABLE', 1, 206),
+(884, 'Wydawnictwo Polskie', '9781230000884', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 884', 'UNAVAILABLE', 1, 206),
 (885, 'Inne Wydawnictwo', '9781230000885', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 885', 'AVAILABLE', 1, 206),
 (886, 'Wydawnictwo XYZ', '9781230000886', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 886', 'AVAILABLE', 1, 206),
 (887, 'English Publisher', '9781230000887', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 887', 'AVAILABLE', 1, 207),
@@ -5420,7 +5420,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (1051, 'Wydawnictwo ABC', '9781230001051', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1051', 'AVAILABLE', 2, 248),
 (1052, 'English Tea', '9781230001052', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 1052', 'AVAILABLE', 2, 249),
 (1053, 'Wydawnictwo Polskie', '9781230001053', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1053', 'AVAILABLE', 2, 249),
-(1054, 'Inne Wydawnictwo', '9781230001054', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1054', 'AVAILABLE', 2, 249),
+(1054, 'Inne Wydawnictwo', '9781230001054', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1054', 'UNAVAILABLE', 2, 249),
 (1055, 'Wydawnictwo ABC', '9781230001055', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1055', 'AVAILABLE', 2, 249),
 (1056, 'English Publisher', '9781230001056', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1056', 'AVAILABLE', 2, 250),
 (1057, 'Wydawnictwo Polskie', '9781230001057', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1057', 'AVAILABLE', 2, 250),
@@ -5478,7 +5478,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (1109, 'Wydawnictwo Polskie', '9781230001109', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1109', 'AVAILABLE', 2, 263),
 (1110, 'Inne Wydawnictwo', '9781230001110', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1110', 'AVAILABLE', 2, 263),
 (1111, 'Wydawnictwo ABC', '9781230001111', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1111', 'AVAILABLE', 2, 263),
-(1112, 'English Tea', '9781230001112', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1112', 'AVAILABLE', 2, 264),
+(1112, 'English Tea', '9781230001112', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1112', 'UNAVAILABLE', 2, 264),
 (1113, 'Wydawnictwo Polskie', '9781230001113', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1113', 'AVAILABLE', 2, 264),
 (1114, 'Inne Wydawnictwo', '9781230001114', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1114', 'AVAILABLE', 2, 264),
 (1115, 'Wydawnictwo XYZ', '9781230001115', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1115', 'AVAILABLE', 2, 264),
@@ -5600,7 +5600,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (1231, 'Wydawnictwo ABC', '9781230001231', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1231', 'AVAILABLE', 2, 293),
 (1232, 'English Publisher', '9781230001232', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1232', 'AVAILABLE', 2, 294),
 (1233, 'Wydawnictwo XYZ', '9781230001233', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1233', 'AVAILABLE', 2, 294),
-(1234, 'Inne Wydawnictwo', '9781230001234', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1234', 'AVAILABLE', 2, 294),
+(1234, 'Inne Wydawnictwo', '9781230001234', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1234', 'UNAVAILABLE', 2, 294),
 (1235, 'Wydawnictwo ABC', '9781230001235', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1235', 'AVAILABLE', 2, 294),
 (1236, 'English Publisher', '9781230001236', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 1236', 'AVAILABLE', 2, 295),
 (1237, 'Wydawnictwo Polskie', '9781230001237', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1237', 'AVAILABLE', 2, 295),
@@ -5613,9 +5613,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (1244, 'English Tea', '9781230001244', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 1244', 'AVAILABLE', 2, 297),
 (1245, 'Wydawnictwo Polskie', '9781230001245', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1245', 'AVAILABLE', 2, 297),
 (1246, 'Inne Wydawnictwo', '9781230001246', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1246', 'AVAILABLE', 2, 297),
-(1247, 'Wydawnictwo XYZ', '9781230001247', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1247', 'AVAILABLE', 2, 297),
-(1248, 'English Tea', '9781230001248', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1248', 'AVAILABLE', 2, 298);
+(1247, 'Wydawnictwo XYZ', '9781230001247', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1247', 'AVAILABLE', 2, 297);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(1248, 'English Tea', '9781230001248', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1248', 'AVAILABLE', 2, 298),
 (1249, 'Wydawnictwo XYZ', '9781230001249', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1249', 'AVAILABLE', 2, 298),
 (1250, 'Inne Wydawnictwo', '9781230001250', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1250', 'AVAILABLE', 2, 298),
 (1251, 'Wydawnictwo ABC', '9781230001251', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1251', 'AVAILABLE', 2, 298),
@@ -6051,13 +6051,13 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (1681, 'Wydawnictwo ABC', '9781230001681', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1681', 'AVAILABLE', 3, 406),
 (1682, 'Nowoczesne Wydawnictwo', '9781230001682', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1682', 'AVAILABLE', 3, 406),
 (1683, 'Książki Świata', '9781230001683', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1683', 'AVAILABLE', 3, 406),
-(1684, 'Inne Wydawnictwo', '9781230001684', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1684', 'AVAILABLE', 3, 407),
-(1685, 'Wydawnictwo ABC', '9781230001685', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1685', 'AVAILABLE', 3, 407);
+(1684, 'Inne Wydawnictwo', '9781230001684', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1684', 'AVAILABLE', 3, 407);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(1685, 'Wydawnictwo ABC', '9781230001685', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1685', 'AVAILABLE', 3, 407),
 (1686, 'Nowoczesne Wydawnictwo', '9781230001686', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1686', 'AVAILABLE', 3, 407),
 (1687, 'Książki Świata', '9781230001687', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 1687', 'AVAILABLE', 3, 407),
 (1688, 'Inne Wydawnictwo', '9781230001688', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1688', 'AVAILABLE', 3, 408),
-(1689, 'Wydawnictwo ABC', '9781230001689', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1689', 'AVAILABLE', 3, 408),
+(1689, 'Wydawnictwo ABC', '9781230001689', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1689', 'UNAVAILABLE', 3, 408),
 (1690, 'Nowoczesne Wydawnictwo', '9781230001690', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1690', 'AVAILABLE', 3, 408),
 (1691, 'Książki Świata', '9781230001691', 2023, 'BOOK', 'Angielski', 'Opis egzemplarza 1691', 'AVAILABLE', 3, 408),
 (1692, 'Wydawnictwo XYZ', '9781230001692', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1692', 'AVAILABLE', 3, 409),
@@ -6150,7 +6150,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (1779, 'Wydawnictwo ABC', '9781230001779', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1779', 'AVAILABLE', 3, 429),
 (1780, 'English Publisher', '9781230001780', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1780', 'AVAILABLE', 3, 429),
 (1781, 'Nowoczesne Wydawnictwo', '9781230001781', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza', 'AVAILABLE', 3, 430),
-(1782, 'Inne Wydawnictwo', '9781230001782', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1782', 'AVAILABLE', 3, 430),
+(1782, 'Inne Wydawnictwo', '9781230001782', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 1782', 'UNAVAILABLE', 3, 430),
 (1783, 'Wydawnictwo ABC', '9781230001783', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 1783', 'AVAILABLE', 3, 430),
 (1784, 'English Publisher', '9781230001784', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 1784', 'AVAILABLE', 3, 430),
 (1785, 'Nowoczesne Wydawnictwo', '9781230001785', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza', 'AVAILABLE', 3, 431),
@@ -6372,7 +6372,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (2001, 'English Publisher', '9781230002001', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 2001', 'AVAILABLE', 3, 472),
 (2002, 'Inne Wydawnictwo', '9781230002002', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 2002', 'AVAILABLE', 3, 472),
 (2003, 'Nowoczesne Wydawnictwo', '9781230002003', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2003', 'AVAILABLE', 3, 472),
-(2004, 'Wydawnictwo ABC', '9781230002004', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2004', 'AVAILABLE', 3, 472),
+(2004, 'Wydawnictwo ABC', '9781230002004', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2004', 'UNAVAILABLE', 3, 472),
 (2005, 'English Publisher', '9781230002005', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 2005', 'AVAILABLE', 3, 473),
 (2006, 'Inne Wydawnictwo', '9781230002006', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2006', 'AVAILABLE', 3, 473),
 (2007, 'Nowoczesne Wydawnictwo', '9781230002007', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 2007', 'AVAILABLE', 3, 473),
@@ -6485,9 +6485,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (2114, 'English Publisher', '9781230002114', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2114', 'AVAILABLE', 3, 500),
 (2115, 'Nowoczesne Wydawnictwo', '9781230002115', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2115', 'AVAILABLE', 3, 500),
 (2116, 'Inne Wydawnictwo', '9781230002116', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 2116', 'AVAILABLE', 3, 500),
-(2117, 'Wydawnictwo ABC', '9781230002117', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2117', 'AVAILABLE', 3, 500),
-(2118, 'English Publisher', '9781230002118', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2118', 'AVAILABLE', 3, 501);
+(2117, 'Wydawnictwo ABC', '9781230002117', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2117', 'AVAILABLE', 3, 500);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(2118, 'English Publisher', '9781230002118', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2118', 'AVAILABLE', 3, 501),
 (2119, 'Nowoczesne Wydawnictwo', '9781230002119', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 2119', 'AVAILABLE', 3, 501),
 (2120, 'Inne Wydawnictwo', '9781230002120', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2120', 'AVAILABLE', 3, 501),
 (2121, 'Wydawnictwo ABC', '9781230002121', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2121', 'AVAILABLE', 3, 501),
@@ -6921,9 +6921,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (2549, 'Wydawnictwo Polskie', '9781230002549', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2549', 'AVAILABLE', 4, 643),
 (2550, 'English Tea', '9781230002550', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 2550', 'AVAILABLE', 4, 644),
 (2551, 'Wydawnictwo XYZ', '9781230002551', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 2551', 'AVAILABLE', 4, 644),
-(2552, 'Wydawnictwo ABC', '9781230002552', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2552', 'AVAILABLE', 4, 644),
-(2553, 'Świat Książki', '9781230002553', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2553', 'AVAILABLE', 4, 645);
+(2552, 'Wydawnictwo ABC', '9781230002552', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2552', 'AVAILABLE', 4, 644);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(2553, 'Świat Książki', '9781230002553', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2553', 'AVAILABLE', 4, 645),
 (2554, 'English Tea', '9781230002554', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 2554', 'AVAILABLE', 4, 645),
 (2555, 'Wydawnictwo Polskie', '9781230002555', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2555', 'AVAILABLE', 4, 645),
 (2556, 'Inne Wydawnictwo', '9781230002556', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2556', 'AVAILABLE', 4, 646),
@@ -7357,9 +7357,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (2984, 'Wydawnictwo ABC', '9781230002984', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2984', 'AVAILABLE', 5, 788),
 (2985, 'Nowoczesne Wydawnictwo', '9781230002985', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2985', 'AVAILABLE', 5, 788),
 (2986, 'English Tea', '9781230002986', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 2986', 'AVAILABLE', 5, 789),
-(2987, 'Wydawnictwo XYZ', '9781230002987', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2987', 'AVAILABLE', 5, 789),
-(2988, 'English Publisher', '9781230002988', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 2988', 'AVAILABLE', 5, 789);
+(2987, 'Wydawnictwo XYZ', '9781230002987', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2987', 'AVAILABLE', 5, 789);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(2988, 'English Publisher', '9781230002988', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 2988', 'AVAILABLE', 5, 789),
 (2989, 'Wydawnictwo Polskie', '9781230002989', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 2989', 'AVAILABLE', 5, 790),
 (2990, 'Wydawnictwo ABC', '9781230002990', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 2990', 'AVAILABLE', 5, 790),
 (2991, 'Nowoczesne Wydawnictwo', '9781230002991', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 2991', 'AVAILABLE', 5, 790),
@@ -7793,9 +7793,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (3419, 'Wydawnictwo XYZ', '9781230003419', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3419', 'AVAILABLE', 5, 933),
 (3420, 'English Publisher', '9781230003420', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 3420', 'AVAILABLE', 5, 933),
 (3421, 'Wydawnictwo Polskie', '9781230003421', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3421', 'AVAILABLE', 5, 934),
-(3422, 'Wydawnictwo ABC', '9781230003422', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3422', 'AVAILABLE', 5, 934),
-(3423, 'Nowoczesne Wydawnictwo', '9781230003423', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 3423', 'AVAILABLE', 5, 934);
+(3422, 'Wydawnictwo ABC', '9781230003422', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3422', 'AVAILABLE', 5, 934);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(3423, 'Nowoczesne Wydawnictwo', '9781230003423', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 3423', 'AVAILABLE', 5, 934),
 (3424, 'English Tea', '9781230003424', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 3424', 'AVAILABLE', 5, 935),
 (3425, 'Wydawnictwo XYZ', '9781230003425', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3425', 'AVAILABLE', 5, 935),
 (3426, 'English Publisher', '9781230003426', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 3426', 'AVAILABLE', 5, 935),
@@ -7885,7 +7885,7 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (3510, 'Świat książek', '9781230003510', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3510', 'AVAILABLE', 5, 964),
 (3511, 'Wydawnictwo ABC', '9781230003511', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3511', 'AVAILABLE', 5, 965),
 (3512, 'Wydawnictwo ABC', '9781230003512', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3512', 'AVAILABLE', 5, 965),
-(3513, 'Wydawnictwo ABC', '9781230003513', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3513', 'AVAILABLE', 5, 965),
+(3513, 'Wydawnictwo ABC', '9781230003513', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3513', 'UNAVAILABLE', 5, 965),
 (3514, 'Wydawnictwo XYZ', '9781230003514', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3514', 'AVAILABLE', 5, 966),
 (3515, 'Wydawnictwo XYZ', '9781230003515', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3515', 'AVAILABLE', 5, 966),
 (3516, 'Wydawnictwo XYZ', '9781230003516', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3516', 'AVAILABLE', 5, 966),
@@ -8230,9 +8230,9 @@ INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `l
 (3903, 'Świat książek', '9781230003903', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3903', 'AVAILABLE', 2, 1078),
 (3904, 'Wydawnictwo ABC', '9781230003904', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3904', 'AVAILABLE', 2, 1079),
 (3905, 'Wydawnictwo XYZ', '9781230003905', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3905', 'AVAILABLE', 2, 1079),
-(3906, 'English Tea', '9781230003906', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 3906', 'AVAILABLE', 2, 1079),
-(3907, 'Wydawnictwo Polskie', '9781230003907', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3907', 'AVAILABLE', 2, 1080);
+(3906, 'English Tea', '9781230003906', 2022, 'BOOK', 'Angielski', 'Opis egzemplarza 3906', 'AVAILABLE', 2, 1079);
 INSERT INTO `copy` (`copy_id`, `publisher`, `isbn`, `release_year`, `format`, `language`, `blurb`, `status`, `library_id`, `book_id`) VALUES
+(3907, 'Wydawnictwo Polskie', '9781230003907', 2021, 'BOOK', 'Polski', 'Opis egzemplarza 3907', 'AVAILABLE', 2, 1080),
 (3908, 'Wydawnictwo ABC', '9781230003908', 2023, 'BOOK', 'Polski', 'Opis egzemplarza 3908', 'AVAILABLE', 2, 1080),
 (3909, 'Nowoczesne Wydawnictwo', '9781230003909', 2022, 'BOOK', 'Polski', 'Opis egzemplarza 3909', 'AVAILABLE', 2, 1080),
 (3910, 'English Tea', '9781230003910', 2021, 'BOOK', 'Angielski', 'Opis egzemplarza 3910', 'AVAILABLE', 2, 1081),
@@ -8861,14 +8861,14 @@ CREATE TABLE `orders` (
 INSERT INTO `orders` (`orders_id`, `orders_date`, `status`, `reader_id`, `copy_id`) VALUES
 (1, '2023-12-20', 'READY', 1, 5),
 (2, '2023-12-20', 'READY', 2, 1),
-(3, '2023-12-21', 'REMAINING', 3, 20),
+(3, '2023-12-21', 'READY', 3, 20),
 (4, '2023-12-21', 'READY', 4, 10),
-(5, '2023-12-22', 'REMAINING', 5, 25),
-(6, '2023-12-22', 'REMAINING', 6, 3),
+(5, '2023-12-22', 'READY', 5, 25),
+(6, '2023-12-22', 'READY', 6, 3),
 (7, '2023-12-23', 'READY', 7, 18),
-(8, '2023-12-23', 'REMAINING', 8, 12),
+(8, '2023-12-23', 'READY', 8, 12),
 (9, '2023-12-24', 'READY', 9, 1),
-(10, '2023-12-24', 'REMAINING', 10, 22),
+(10, '2023-12-24', 'READY', 10, 22),
 (11, '2023-12-25', 'READY', 11, 8),
 (12, '2023-12-25', 'REMAINING', 12, 27),
 (13, '2023-12-26', 'REMAINING', 13, 14),
@@ -8881,7 +8881,30 @@ INSERT INTO `orders` (`orders_id`, `orders_date`, `status`, `reader_id`, `copy_i
 (20, '2023-12-29', 'REMAINING', 20, 2),
 (21, '2023-12-26', 'READY', 903, 111),
 (22, '2023-12-27', 'REMAINING', 2010, 1024),
-(23, '2023-12-27', 'REMAINING', 135, 867);
+(23, '2023-12-27', 'REMAINING', 135, 867),
+(24, '2024-01-02', 'REMAINING', 665, 2004),
+(38, '2023-12-28', 'REMAINING', 157, 1112),
+(39, '2023-12-29', 'REMAINING', 11, 211),
+(40, '2023-12-30', 'REMAINING', 980, 1689),
+(41, '2023-12-31', 'REMAINING', 1001, 3513),
+(42, '2024-01-01', 'REMAINING', 5, 1234),
+(43, '2024-01-02', 'REMAINING', 90, 603),
+(44, '2024-01-03', 'REMAINING', 3004, 1782),
+(45, '2024-01-04', 'REMAINING', 500, 708),
+(46, '2024-01-02', 'REMAINING', 9, 144),
+(47, '2024-01-03', 'REMAINING', 954, 884),
+(49, '2023-12-28', 'REMAINING', 157, 1112),
+(50, '2023-12-29', 'REMAINING', 11, 211),
+(51, '2023-12-30', 'REMAINING', 980, 1689),
+(52, '2023-12-31', 'REMAINING', 1001, 3513),
+(53, '2024-01-01', 'REMAINING', 5, 1234),
+(54, '2024-01-02', 'REMAINING', 90, 603),
+(55, '2024-01-03', 'REMAINING', 3004, 1782),
+(56, '2024-01-04', 'REMAINING', 500, 708),
+(57, '2024-01-02', 'REMAINING', 9, 144),
+(58, '2024-01-03', 'REMAINING', 954, 884),
+(59, '2023-12-28', 'REMAINING', 359, 11),
+(60, '2023-12-29', 'REMAINING', 621, 1054);
 
 -- --------------------------------------------------------
 
@@ -12080,7 +12103,7 @@ ALTER TABLE `opening`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `orders_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `orders_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- AUTO_INCREMENT for table `reader`
