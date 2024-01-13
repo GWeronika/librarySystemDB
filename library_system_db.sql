@@ -8670,11 +8670,11 @@ CREATE TABLE `library` (
 --
 
 INSERT INTO `library` (`library_id`, `name`, `location`, `phone_number`, `email`) VALUES
-(1, 'Filia Wierzba', 'ul. Kołłątajowska 1', '+48102938475', 'wierzba@example.com'),
-(2, 'Filia Dąb', 'Rondo Dębnickie 3', '+4845556606', 'dab@example.com'),
-(3, 'Filia Sosna', 'ul. Krakowskie Przedmieście 108', '+4874888999', 'sosna@example.com'),
-(4, 'Filia Jesion', 'al. I.J. Paderewskiego 78', '+4834567869', 'jesion@example.com'),
-(5, 'Filia Topola', 'ul. Skrzyżna 19', '+4876543215', 'topola@example.com');
+(1, 'Filia Czyżyny', 'ul. Kołłątajowska 1', '+48102938475', 'wierzba@example.com'),
+(2, 'Filia Śródmieście', 'Rondo Dębnickie 3', '+4845556606', 'dab@example.com'),
+(3, 'Filia Bronowice', 'ul. Krakowskie Przedmieście 108', '+4874888999', 'sosna@example.com'),
+(4, 'Filia Grzegórzki', 'al. I.J. Paderewskiego 78', '+4834567869', 'jesion@example.com'),
+(5, 'Filia Krowodrza', 'ul. Skrzyżna 19', '+4876543215', 'topola@example.com');
 
 -- --------------------------------------------------------
 
